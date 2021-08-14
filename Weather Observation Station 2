@@ -1,0 +1,2 @@
+select Format(round(sum(LAT_N),2),'#.00') , 
+Format(round(sum(LONG_W),2),'#.00') from station;
